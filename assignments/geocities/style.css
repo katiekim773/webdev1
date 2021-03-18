@@ -1,0 +1,44 @@
+body {
+    background-image: url(gifs/threecats.gif);
+}
+
+img {
+    width:50%;
+    
+
+}
+
+.black {
+    position:absolute;
+    left:400px;
+    bottom:20px;
+    width:200px;
+}
+
+.cute {
+    width:200px;
+    position:absolute;
+    left:400px;
+
+}
+
+h1 {
+    text-align:center;
+
+}
+
+.mad {
+    position:fixed;
+    top:250px;
+    left: 200px;
+    width:200px;
+    
+
+}
+
+.moving {
+    position:absolute;
+    top:400px;
+    left:25px;
+}
+
