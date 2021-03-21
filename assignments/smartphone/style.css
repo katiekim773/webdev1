@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background: coral;
+    flex-wrap: wrap;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  a {
+    color: #000;
+    align-items: center;
+  }
+  a:hover {
+    color: blue;
+  }
+
+
+  .box {
+    flex: 0 1 15%;
+    height: 60px;
+    margin: 1em;
+    border-radius: 10px;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  }
+
+  .red {
+      background: linear-gradient(red, orange);
+  }
+  .orange {
+      background:  linear-gradient(orange, yellow);
+  }
+  .yellow {
+    background:  linear-gradient(yellow, green);
+  }
+  .green {
+    background:  linear-gradient(green, blue);
+  }
+  .blue {
+    background:  linear-gradient(blue, violet);
+  }
+  .purple {
+      background: purple;
+  }
+  .pink {
+      background: pink;
+  }
+  .brown {
+      background:brown;
+  }
+  .crimson {
+      background:crimson;
+  }
+  .black {
+      background: black;
+  }
+  .lightblue {
+      background:lightblue
+  }
+  .lightgreen {
+      background: lightgreen;
+  }
+  .lightsalmon {
+      background:lightsalmon;
+  }
+  .lightcyan {
+      background: lightcyan;
+  }
+  .lightgray {
+      background:lightgray;
+  }
+  .lightseagreen {
+      background:lightseagreen;
+  }
+  .lightyellow {
+      background:lightyellow;
+  }
+  .maroon {
+      background:maroon;
+  }
+  .lime {
+      background:lime;
+  }
+  .magenta {
+      background:magenta;
+  }
+
+
+ 
+ 
