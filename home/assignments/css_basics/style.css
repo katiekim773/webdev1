@@ -1,0 +1,36 @@
+
+body {
+    background: lightpink;
+}
+
+h1 {
+    color: black;
+    background: pink;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    background: orange;
+    text-align: center;
+
+}
+
+div {
+    font-size: 20px;
+    background: lightskyblue;
+    padding: 15px;
+    border: 5px solid black;
+}
+
+header {
+    color: black;
+    background: beige;
+}
+
+main {
+    font-size: 20px;
+    background: lightskyblue;
+    padding: 15px;
+    border: 5px solid black;
+}
