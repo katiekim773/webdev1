@@ -1,0 +1,49 @@
+h3 {
+    color: blue;
+    font-family: 'Ranchers', cursive;
+    font-size: 100px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    width: 570px;
+    margin: 0 auto;
+    box-shadow: 5px 5px grey;
+}
+
+.box {
+    background-color: white;
+    width: 40px;
+    height: 80px;
+    margin: .5em;
+    opacity: 0;
+  
+    animation-name: fade-in;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.one { animation-delay: 0; }
+.two { animation-delay: .5s; }
+.three { animation-delay: 1s; }
+.four { animation-delay: 1.5s; }
+.five { animation-delay: 2s; }
+.six { animation-delay: 2.5s; }
+.seven { animation-delay: 3s; }
+.eight { animation-delay: 3.5s; }
+.nine { animation-delay: 4s; }
+.ten { animation-delay: 4.5s; }
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
