@@ -1,13 +1,13 @@
-h3 {
-    color: blue;
-    font-family: 'Ranchers', cursive;
+h1 {
+    color:mediumorchid;
+    font-family:Impact, cursive;
     font-size: 100px;
     margin-top: 2em;
     text-align: center;
 }
 
 .container {
-    background-color: blue;
+    background-color:mediumaquamarine;
     display: flex;
     width: 570px;
     margin: 0 auto;
@@ -15,14 +15,14 @@ h3 {
 }
 
 .box {
-    background-color: white;
+    background-color:mediumslateblue;
     width: 40px;
-    height: 80px;
+    height: 40px;
     margin: .5em;
     opacity: 0;
   
     animation-name: fade-in;
-    animation-duration: .5s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: linear;
