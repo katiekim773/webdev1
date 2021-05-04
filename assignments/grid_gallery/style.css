@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+* {margin: 0; padding: 0;}
+body {font-family:fantasy, cursive;}
+body {background-color:plum}
+h1 {text-align: center; margin: 3rem;}
+h1 {color:purple}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+/*   grid-template-rows: 1fr 2fr 1fr; */
+  grid-gap: 1rem;
+  padding: 1rem;
+  
+/*   height: 70vh; */
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured {
+  grid-column: 1 / span 2;
+}
+
+@media (max-width: 600px) {
+  
+  .grid-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  
+  .grid-gallery {
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+  }
+
+}
