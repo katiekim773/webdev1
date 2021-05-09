@@ -1,21 +1,14 @@
 body {
-    background-image: url(gifs/threecats.gif);
+    justify-content: center;
 }
 
-img {
-    width:50%;
-    
-
-}
-
-.black {
-    position:absolute;
+.painting {
     left:400px;
     bottom:20px;
     width:200px;
 }
 
-.cute {
+.side {
     width:200px;
     position:absolute;
     left:400px;
@@ -27,7 +20,7 @@ h1 {
 
 }
 
-.mad {
+.signature {
     position:fixed;
     top:250px;
     left: 200px;
@@ -36,9 +29,22 @@ h1 {
 
 }
 
-.moving {
+.eeyore {
+    width: 30px;
+    height:auto;
+}
+
+.empty {
     position:absolute;
     top:400px;
     left:25px;
+
+}
+
+.eyes {
+    position:absolute;
+    top:400px;
+    left:25px;
+
 }
 

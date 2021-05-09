@@ -1,0 +1,30 @@
+iframe {
+    display:block;
+    margin:auto;
+}
+
+#main-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    border-left: 2px solid white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: .25em;
+  }
+
+  body {
+    background-image: url(background/bricks.jpg);
+  }
+
+  h1 {
+    align-items: center;
+  }

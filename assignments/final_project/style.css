@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*     border: 1px solid orange; */
+  }
+  
+  body {
+    background-image: linear-gradient(180deg, orange, blue);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1em;
+    margin: 1rem auto;
+    width: 80vw;
+    border: 2px solid white;
+  }
+  
+  #main-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-left: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: .25em;
+  }
+  
+  .menu-item:hover {
+    background-color: yellow;
+  }
+  /* .menu-item:last-of-type {
+    border-right: 2px solid white;
+  } */
+  
+/*  .box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border-left: 2px solid red;
+  } */
+
+  .box {
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    animation-name: move-left;
+    animation-duration: 3s;
+    animation-fill-mode:both;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-left {
+
+  
+    70% {width: 300px; left: 800px; top: 200px; border-radius: 25%; background-color: orange;}
+    85% {width: 200px; left: 200px; top: 200px; border-radius: 50%; background-color: blue;}
+
+
+} 
+
+  
